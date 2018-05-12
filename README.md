@@ -1,2 +1,2 @@
-# cashsim.github.io
-Cash Simulator
+# cellsim.github.io
+Cell Simulator
