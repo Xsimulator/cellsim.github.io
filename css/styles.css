@@ -1,8 +1,12 @@
 body {
-	background-color: #fcfdff;
+	background-color: white;
 }
 
 h1, h2 {
 	color: blue;
+}
+
+p {
+	color: rgb(29, 35, 48);
 }
 
