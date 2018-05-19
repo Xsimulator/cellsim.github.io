@@ -1,36 +1,101 @@
 <!DOCTYPE html>
+
+<!-- Do 4 spaces instead of a tab. (Disregard if on KA) -->
+
 <html lang="en">
+    
+    <head> 
+    
+        <meta charset="utf-8"> 
+    
+        <title>Cell Sim</title> 
+    
+    
+        <!-- Note: fallback font should almost always be sans-serif -->
+    
+        <style>
+        
+            body { 
+                background-color: white; 
+            } 
+        
+            #welcome-heading { 
+                color: rgb(125, 125, 125); 
+                font-family: 'calibri', sans-serif;
+                font-size: 25px;
+                margin: 20px 20px 21px 14px;
+            }
+        
+            #notif-box {
+                color: rgb(0, 30, 255); 
+                background: rgb(191, 226, 255);
+                font-family: 'arial', sans-serif;
+                font-size: 12px;
+                width: 60%;
+                overflow: auto;
+                
+                margin: auto;
+                border: 3px solid rgb(102, 181, 227);
+                border-radius: 10px;
+                padding: 21px;
+                text-align: center;
+            } 
+            
+            #bottom-footer {
+                color: rgb(41, 41, 41); 
+                background: rgb(224, 224, 224);
+                font-family: 'arial', sans-serif;
+                font-size: 12px;
+                width: 100%;
+                overflow: auto;
+                padding: 14px;
+                text-align: center; 
+                
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                z-index: 1;
+                
+                border-top: 4px solid rgb(204, 204, 204);
+            }
+            
+            .highlight {
+                color: rgb(179, 157, 34);
+            }
+    
+        </style>
+    </head> 
+    
+    <body> 
+    
+        <h1 id='welcome-heading'> 
+            Welcome to Cell Simulator! &nbsp; <span class='highlight'>V.1-X</span>
+        </h1>
+     
 
-<head> 
-<meta charset="utf-8"> 
-
-<title>Cell Sim</title> 
-
-<style>
-body { 
-background-color: white; 
-} 
-
-#welcome-heading { 
-color: blue; 
-}
-
- #notif-p {
-color: rgb(136, 208, 247); 
-} 
-
-</style>
- </head> 
-
-<body> 
-
-<h1 id='welcome-heading'> 
-Felix's ad hosting.
-</h1>
- 
-<p id='notif-p'>
-Sorry, the Iroquois items are all sold out, thank you for checking. 
-</p>
-
- </body> 
+    <div id='notif-box'>
+        While you were offline, you earned 34.3M T-cells, 23.3B macrophages, ...
+    </div>
+    
+    <p>The immune system is a host defense system comprising many biological structures and processes within an organism that protects against disease. To function properly, an immune system must detect a wide variety of agents, known as pathogens, from viruses to parasitic worms, and distinguish them from the organism's own healthy tissue. In many species, the immune system can be classified into subsystems, such as the innate immune system versus the adaptive immune system, or humoral immunity versus cell-mediated immunity. In humans, the blood–brain barrier, blood–cerebrospinal fluid barrier, and similar fluid–brain barriers separate the peripheral immune system from the neuroimmune system, which protects the brain.
+<br>
+Pathogens can rapidly evolve and adapt, and thereby avoid detection and neutralization by the immune system; however, multiple defense mechanisms have also evolved to recognize and neutralize pathogens. Even simple unicellular organisms such as bacteria possess a rudimentary immune system in the form of enzymes that protect against bacteriophage infections. Other basic immune mechanisms evolved in ancient eukaryotes and remain in their modern descendants, such as plants and invertebrates. These mechanisms include phagocytosis, antimicrobial peptides called defensins, and the complement system. Jawed vertebrates, including humans, have even more sophisticated defense mechanisms, including the ability to adapt over time to recognize specific pathogens more efficiently. Adaptive (or acquired) immunity creates immunological memory after an initial response to a specific pathogen, leading to an enhanced response to subsequent encounters with that same pathogen. This process of acquired immunity is the basis of vaccination.<br><br><br><br></p>
+    
+    <div id='bottom-footer'>
+    
+        <a href='https://en.wikipedia.org/wiki/Immune_system'>
+            Read more on Wikipedia</a>
+            
+        &nbsp;|&nbsp;  <!-- Divider -->
+        
+        <a href='https://docs.google.com/presentation/d/1jLotdEnyH-a3O8XtM05Sji7USMMCQGQenMAcWoicflo/edit?usp=sharing'>
+            Help us make graphics</a>
+            
+    </div>
+    
+     </body> 
 </html>
+
+
+
+
